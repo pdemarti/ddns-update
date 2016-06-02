@@ -4,7 +4,7 @@ ddns-update
 Update a dynamic DNS IP Address record from a linux host.
 
 The current version is specific to:
-  - DuckDNS (duckdns.org)
+  - `DuckDNS <https://www.duckdns.org/>`_
   - Neatgear Nighthawk R7000 router
 
 However it should be straightforward to adapt for any router (as long
@@ -34,7 +34,7 @@ Installation
 
     # note: an example crontab entry is (adapt ad lib):
     # Update DuckDNS record
-    # */10 * * * * (cd ~/contrib/duckdns; ./ddns_update.pl >> duck.log 2>&1)
+    # */10 * * * * (cd ~/contrib/ddns-update; ./ddns-update.pl >> ddns.log 2>&1)
 
 Notes:
   - in `.config`, typically the only values to change are your domain
