@@ -1,0 +1,13 @@
+#----------------------------------------------------------------------
+# Config file
+# -----------
+# Modify the following as needed
+
+ddns_url   = https://www.duckdns.org/update?domains=[domain]&token=[token]&ip=[ip]
+router_url = http://192.168.1.1/RST_st_dhcp.htm     # Netgear Nighthwak R7000 connection status page
+
+# Duck DNS domain name, e.g.:  mydomain = foobar-smith
+mydomain = DOMAIN
+
+# Your Duck DNS token, e.g. mytoken  = 01234567-89ab-cdef01234-567890abcdef
+mytoken  = TOKEN
