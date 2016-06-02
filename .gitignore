@@ -1,4 +1,5 @@
 .curl-pass
 .config
 .ip_hist
+ddns.log
 duck.log
