@@ -37,8 +37,8 @@ Installation
     # */10 * * * * (cd ~/contrib/ddns-update; ./ddns-update.pl >> ddns.log 2>&1)
 
 Notes:
-  - in `.config`, typically the only values to change are your domain
+  - in ``.config``, typically the only values to change are your domain
     name (the one you registered on DuckDNS) and your token (provided
     by DuckDNS).
-  - in `.curl-pass`, update the ROUTER-ADDRESS, the router admin's
+  - in ``.curl-pass``, update the ROUTER-ADDRESS, the router admin's
     USERNAME and PASSWORD.
